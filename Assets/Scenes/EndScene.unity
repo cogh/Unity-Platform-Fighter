@@ -296,22 +296,22 @@ PrefabInstance:
     - target: {fileID: 8075603406372482578, guid: f8f2851bd13e3f043a6f37dc91f3de1b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8075603406372482578, guid: f8f2851bd13e3f043a6f37dc91f3de1b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1054387748}
+      objectReference: {fileID: 778581610}
     - target: {fileID: 8075603406372482578, guid: f8f2851bd13e3f043a6f37dc91f3de1b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
+      value: StartUploadScoreCoroutine
       objectReference: {fileID: 0}
     - target: {fileID: 8075603406372482578, guid: f8f2851bd13e3f043a6f37dc91f3de1b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: RoomManagerScript, Assembly-CSharp
+      value: WebManagerScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8075603406372482578, guid: f8f2851bd13e3f043a6f37dc91f3de1b,
         type: 3}

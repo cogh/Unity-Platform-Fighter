@@ -246,6 +246,8 @@ public class PlayerScript : MonoBehaviour
         GameObject collidedEnemy = InstancePlace(transform.position, "enemy");
         if (collidedEnemy != null)
         {
+            hurtParticles.Play();
+            hurtSound.Play();
             gameManagerScript.DecreaseHealth();
             Destroy(collidedEnemy);
         }
@@ -386,6 +388,10 @@ public class PlayerScript : MonoBehaviour
     // Sounds
     public AudioSource jumpSound;
     public AudioSource targetSound;
+    public AudioSource hurtSound;
+
+    // Particle systems
+    public ParticleSystem hurtParticles;
 
     // Misc
     public GameObject targetPrefab;

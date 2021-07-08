@@ -39,6 +39,7 @@ public class GameManagerScript : MonoBehaviour
             {
                 health = maxHealth * 2;
             }
+            levelIndex = 0;
             totalScore = 0;
             SceneManager.LoadScene("MainMenu");
         }
@@ -58,7 +59,7 @@ public class GameManagerScript : MonoBehaviour
         {
             // Set score
             totalScore += score;
-            money += score / 10;
+            money += score / 2;
 
             // Get level
             levelIndex++;

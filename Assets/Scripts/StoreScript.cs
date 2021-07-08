@@ -18,6 +18,13 @@ public class StoreScript : MonoBehaviour
         
     }
 
+    public void AddMoney()
+    {
+        GameManagerScript gameManagerScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
+
+        gameManagerScript.money += 5;
+    }
+
     public void BuyCrown()
     {
         // Get game manager script
